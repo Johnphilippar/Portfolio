@@ -3,10 +3,22 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { TopbarComponent } from './topbar/topbar.component';
+import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
+import { MainPortfolioComponent } from './main-portfolio/main-portfolio.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
+import { ParticlesComponent } from './portfolio/particles/particles.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TopbarComponent,
+    AboutComponent,
+    ContactComponent,
+    MainPortfolioComponent,
+    PortfolioComponent,
+    ParticlesComponent
   ],
   imports: [
     BrowserModule,
